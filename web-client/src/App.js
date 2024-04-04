@@ -11,7 +11,6 @@ function App () {
 		user: 'gtp',
 		message: 'Como posso te ajudar hoje?'
 	}])
-	const appName = "ChatGPT API Integration";
 
 	async function handleSubmit (e) {
 		e.preventDefault();
@@ -35,8 +34,6 @@ function App () {
 
 		setInput('');
 	}
-
-	console.log('App.js - chatlog: ', chatlog);
 
 	return (
 		<div className="App">
